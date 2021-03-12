@@ -1,0 +1,19 @@
+body {
+    font-family: "Montserrat";
+}
+
+h1 {
+    text-align: center;
+}
+
+hr {
+    border-style: dashed;
+}
+
+.one-row {
+    display: inline-block;
+}
+
+.title_text {
+    width: 70%;
+}

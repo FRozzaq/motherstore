@@ -1,0 +1,17 @@
+{% include "header.html" %}
+
+    <h1>Mother Store Report Maker</h1>
+    <ul>
+        <li><a href="/new">New Report</a> </li>
+        <li>
+            Fill Report
+            <ol>
+                {% for name in vendors %}
+                    <li><a href="{{ url_for('fill_report', vendor_name=name) }}">{{ name }}</a></li>
+                {% endfor %}
+            </ol>
+        </li>
+
+    </ul>
+
+{% include "footer.html" %}
